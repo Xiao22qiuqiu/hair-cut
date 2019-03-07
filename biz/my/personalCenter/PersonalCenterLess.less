@@ -1,0 +1,114 @@
+@import "../../../assets/css/commonCss";
+
+
+.personal-center-page {
+  .user-info-wrap {
+    width: 100%;
+    height: 245px;
+    padding: 0px 32px 28px;
+    background: #d4237a;
+    opacity: 0.7;
+    //background-image: url("../../../assets/images/home/carousel/timg.jpg");
+    background-size: 100% 256px;
+    background-position-y: -6px;
+    box-shadow: 0 5px 12px 0 rgba(0,0,0,0.07);
+
+    .header-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+    }
+    .account-info {
+      margin-left: 30px;
+      .user-name {
+        color: #FFFFFF;
+        font-size: 30px;
+      }
+      .account {
+        color: #FFFFFF;
+        font-size: 34px;
+      }
+    }
+
+  }
+  .message-wrap {
+    position: relative;
+    z-index: 2;
+    margin: -28px 30px 0;
+    background: #ffffff;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 12px 0 rgba(0,0,0,0.07);
+    border-radius: 10px;
+    padding: 0 30px;
+
+    .text1 {
+      color: #0F68B0;
+      font-weight: bold;
+    }
+    .text2 {
+      color: #151515;
+      font-weight: bold;
+    }
+    .more-news:before {
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 24px;
+      margin-right: 10px;
+      background: #e6e6e6;
+      position: relative;
+      top: 4px;
+    }
+    .news-item {
+      padding: 0px 9.6px;
+      font-size: 24px;
+    }
+    .tag {
+      border: 1px solid #FD5C0E;
+      border-radius: 4px;
+      color: #FD5C0E;
+      padding: 0 6px;
+      margin-right: 8px;
+
+    }
+  }
+
+  .nav-list {
+    background: #FFFFFF;
+    box-shadow: 0 5px 12px 0 rgba(0,0,0,0.07);
+    margin: 30px 0;
+    .nav-item {
+      width: 30%;
+      text-align: center;
+      padding: 24px 0px;
+      > img {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+      }
+      .nav-text {
+        font-size: 24px;
+        color: #333;
+        line-height: 36px;
+        margin-top: 10px;
+        margin-left: 16px;
+      }
+    }
+  }
+  .contents{
+    margin:0 30px 30px;
+    height: 330px;
+    line-height: 110px;
+    opacity: 0.9;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    :global {
+      .am-flexbox .am-flexbox-item{
+        text-align: center;
+      }
+    }
+  }
+}

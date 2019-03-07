@@ -1,0 +1,71 @@
+@import "../../../assets/css/commonCss";
+.editKey{
+  .my-list{
+    .am-list-item,.my-time{
+      height: 80px;
+    }
+    .am-list-item:first-child {
+      height: 100px;
+    }
+    .list-Img{
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .fill-form{
+    padding: 30px;
+    .am-list-item{
+      border: 1px solid @color_line;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      &.selected{
+        border: 1px solid @color-theme_red;
+      }
+      &.am-textarea-item{
+        //min-height: 160px;
+      }
+      &.am-input-item{
+        height: 80px;
+        padding-left: 20px;
+        .am-input-control input{
+          color: @color_dark_grey;
+        }
+      }
+      .am-textarea-label-5{
+        margin-left: 16px;
+      }
+      .am-input-label,.am-textarea-label{
+        font-size: 24px;
+        //color: #0F68B0;
+        margin-right: 15px;
+        &.am-input-label-5{
+          width: 107px;
+        }
+        &.am-textarea-label{
+          width: 107px;
+          margin-right: 0;
+        }
+      }
+      .required{
+        display: inline-block;
+        position: relative;
+      }
+      .required:before{
+        content: '*';
+        display: inline-block;
+        color: @color_orange;
+      }
+    }
+    .fill-tips{
+      color: @color_orange;
+      text-align: left;
+    }
+  }
+  .submit-btn{
+    a{
+      height: 80px;
+      line-height: 80px;
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../assets/css/commonCss";
+.row{
+  font-size: 0.4rem;
+  color: #333;
+}
+.userList{
+  height:100%;
+  background:#ffffff;
+  :global{
+    .am-list-header{
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      color: #fff;
+      background: @color-theme_red;
+    }
+    .am-list-item .am-list-line{
+      .am-list-line{
+        font-size: 24px !important;
+      }
+    }
+    .am-list-item .am-list-line .am-list-content,.am-list-item .am-list-line .am-list-extra{
+      font-size: 34px !important;
+    }
+  }
+}
