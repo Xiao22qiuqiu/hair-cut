@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*1 重定义浏览器默认样式
+	Name:			style_reset
+	Level:			Global
+	Explain:		重定义浏览器默认样式
+	Last Modify:	jackying
+*/
+
+*{word-wrap:break-word}
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0;outline:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+ul,ol,dl{list-style-type:none}
+html,body{*position:static; width: 100%; height: 100%;}
+html{font-family: sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button{overflow: visible;vertical-align:middle;outline:none}
+body,th,td,button,input,select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";font-size:0.24rem !important;color: #333;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
+body{line-height:1.6; background: #F3F3F3;}
+body:before {
+    position: fixed;
+    z-index:-1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background: #000;
+}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+/*html{ max-width: 750px; margin: 0 auto;}*/
+a,area{outline:none;}
+a{text-decoration:none;cursor: pointer}
+sub,sup{vertical-align:baseline}
+/*img*/
+img{border:0;vertical-align:middle; }
+a img,img{-ms-interpolation-mode:bicubic}
+.img-responsive{max-width: 100%;height: auto}
+.am-list-item .am-input-control{
+    -webkit-flex:1 !important;
+}
+.am-list-body:after{
+    display:none!important;
+}
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this))}
+
+
+li{
+    list-style-type:none;
+}
+.am-list .am-list-item.am-textarea-item:after{
+    border-bottom:1px solid #fff !important;
+}
+.box_shadow{
+    box-shadow: 0 5px 12px 0 rgba(224, 224, 224, 0.5);
+}
+#app .am-pull-to-refresh-content-wrapper{
+    overflow: initial;
+}
+
+.am-navbar-light {
+    font-family: arial;
+    height: 1.08rem !important;
+    color: #FFFFFF !important;
+    background: #d4237a !important;
+}
+.am-navbar-title{
+    color: #FFFFFF !important;
+    font-size: 0.30rem !important;
+}
+.am-navbar-left{
+    font-size: 0.3rem !important;
+}
+.am-icon-md{
+    width: 0.45rem !important;
+    height: 0.45rem !important;
+}
+/*清除浮动*/
+.clearfix:before,.clearfix:after{
+      content: '';
+      display: block;
+      clear: both;
+  }
+.clearfix{
+    zoom: 1;
+}
+

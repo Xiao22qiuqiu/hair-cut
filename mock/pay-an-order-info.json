@@ -1,0 +1,28 @@
+/**
+ * Created by Q on 2018/4/15.
+ */
+
+{
+  "notes":"测试接口，每一个mock接口都应该在此写注释",
+  "resultCode": 0,
+  "resultMsg": "success",
+  "data":{
+    "shopId":11,
+    "shopName":"美发YY",
+    "id":1,
+    "code":"29102843",
+    "propName":"烫染+护理",
+    "itemPrice":"300",
+    "proImg":"最后修改人",
+    "sellStatus":1,
+    "sellName":"已下架",
+    "auditStatus":1,
+    "auditName":"待审批",
+    "applyStatus":1,
+    "applyName":"上架",
+    "pageNum": 1,
+    "pageSize": 10,
+    "pages": 12,
+    "total": 120
+  }
+}

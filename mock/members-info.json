@@ -1,0 +1,60 @@
+
+{
+  "notes":"个人中心",
+  "resultCode": 0,
+  "resultMsg": "success",
+  "data":{
+    "list":[
+      {
+      "id":1,
+      "shopName":"有意义YY",
+      "name":"yike",
+      "propName":"烫染+护理",
+      "isDirectSale":"是",
+      "itemPrice":"300",
+      "updatePerson":"最后修改人",
+      "status":1,
+      "sellName":"未使用",
+      "auditStatus":1,
+      "time":"2018-07-18 09:30:04",
+      "applyStatus":2,
+      "url":"assets/images/shops/shop4.png"
+    },
+      {
+        "id":2,
+        "shopName":"龙卷风",
+        "name":"亦可",
+        "propName":"烫染",
+        "isDirectSale":"是",
+        "itemPrice":"240",
+        "updatePerson":"最后修改人",
+        "status":2,
+        "sellName":"已取消",
+        "auditStatus":1,
+        "time":"2018-07-18 09:30:04",
+        "applyStatus":1,
+        "url":"assets/images/shops/shop4.png"
+      },
+      {
+        "id":3,
+        "shopName":"美发YY",
+        "name":"chen",
+        "propName":"洗头",
+        "isDirectSale":"是",
+        "itemPrice":"25",
+        "updatePerson":"陈",
+        "sellStatus":1,
+        "time":"2018-07-18 09:30:04",
+        "status":3,
+        "first":1,
+        "sellName":"已完成",
+        "applyStatus":3,
+        "url":"assets/images/shops/shop4.png"
+      }
+    ],
+    "pageNum": 1,
+    "pageSize": 10,
+    "pages": 12,
+    "total": 120
+  }
+}

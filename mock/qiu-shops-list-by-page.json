@@ -1,0 +1,150 @@
+
+{
+  "notes":"店铺详情页接口",
+  "resultCode": 0,
+  "resultMsg": "success",
+  "data":{
+    "url":"assets/images/shops/shop4.png",
+    "shopUrls":[{"Url":"assets/images/shops/shop4.png","key":"1"},
+      {"Url":"assets/images/shops/shop4.png","key":"2"},
+      {"Url":"assets/images/shops/shop4.png","key":"3"}],
+    "score":5,
+    "come":"21.4km",
+    "code":"29102843",
+    "id":1,
+    "code":"29102843",
+    "name":"美发YY",
+    "propName":"chenKing",
+    "isDirectSale":"是",
+    "price":"200",
+    "updatePerson":"最后修改人",
+    "sellStatus":1,
+    "type":"烫染",
+    "auditStatus":1,
+    "typeName":"套餐",
+    "applyStatus":1,
+    "applyName":"在售",
+    "address":"广州市天河时尚广场b座",
+    "pageNum": 1,
+    "hairlist":[
+      {
+        "url":"assets/images/shops/shop4.png",
+        "score":5,
+        "id":1,
+        "type":"烫染",
+        "status":1,
+        "typeName":"套餐",
+        "discounts":1,
+        "applyName":"在售"
+      },
+      {
+        "url":"assets/images/shops/shop4.png",
+        "score":5,
+        "id":"2",
+        "type":"烫染",
+        "status":1,
+        "typeName":"套餐",
+        "discounts":1,
+        "applyName":"在售"
+      },
+      {
+        "url":"assets/images/shops/shop4.png",
+        "score":5,
+        "id":"3",
+        "type":"烫染",
+        "status":1,
+        "typeName":"套餐",
+        "discounts":1,
+        "applyName":"在售"
+      }
+    ],
+    "pinglunlist":[
+      {
+        "images":[{"Url":"assets/images/shops/shop4.png"},
+          {"Url":"assets/images/shops/shop4.png"},
+          {"Url":"assets/images/shops/shop4.png"}],
+        "score":3,
+        "remark":"这个发型真的好好看，发型师手艺棒棒的！！！！",
+        "id":1,
+        "type":"烫染",
+        "status":1,
+        "typeName":"套餐",
+        "time":"2018-09-24 00:00:00",
+        "userImg":"assets/images/shops/shop4.png",
+        "user":"chen1"
+      },
+      {
+        "images":[{"Url":"assets/images/shops/shop4.png"},
+          {"Url":"assets/images/shops/shop4.png"},
+          {"Url":"assets/images/shops/shop4.png"}],
+        "score":3.5,
+        "remark":"这个发型真的好好看，发型师手艺棒棒的！！！！",
+        "id":"88",
+        "type":"烫染",
+        "status":1,
+        "typeName":"套餐",
+        "time":"2018-09-24 00:00:00",
+        "userImg":"assets/images/shops/shop4.png",
+        "user":"chen3"
+      },
+      {
+        "images":[{"Url":"assets/images/shops/shop4.png"},
+          {"Url":"assets/images/shops/shop4.png"},
+          {"Url":"assets/images/shops/shop4.png"}],
+        "score":5,
+        "remark":"这个发型真的好好看，发型师手艺棒棒的！！！！",
+        "id":"90",
+        "type":"烫染",
+        "status":1,
+        "typeName":"套餐",
+        "time":"2018-09-24 00:00:00",
+        "userImg":"assets/images/shops/shop4.png",
+        "user":"chen2"
+      }
+    ],
+    "barberlist":[
+      {
+        "url":"assets/images/shops/shop4.png",
+        "name":"陈奕迅",
+        "id":1,
+        "grade":"高级顾问",
+        "todayTotal":"9",
+        "appTimes":"时间段",
+        "tips":"30元",
+        "total":"80",
+        "continue":"工作经验",
+        "phone":"13344567556",
+        "workTime":"周一~周五 上午10：00~22：00"
+      },
+      {
+        "url":"assets/images/shops/shop4.png",
+        "name":"陈奕迅",
+        "id":1,
+        "grade":"高级顾问",
+        "todayTotal":"7",
+        "appTimes":"时间段",
+        "tips":"30元",
+        "total":"80",
+        "continue":"工作经验",
+        "phone":"13344567556",
+        "workTime":"周一~周五 上午10：00~22：00"
+      },
+      {
+        "url":"assets/images/shops/shop4.png",
+        "name":"陈奕迅",
+        "id":1,
+        "grade":"高级顾问",
+        "todayTotal":"7",
+        "appTimes":"时间段",
+        "tips":"30元",
+        "total":"80",
+        "continue":"工作经验",
+        "phone":"13344567556",
+        "workTime":"周一~周五 上午10：00~22：00"
+      }
+    ],
+    "pageSize": 10,
+    "pages": 12,
+    "total": 120
+  }
+}

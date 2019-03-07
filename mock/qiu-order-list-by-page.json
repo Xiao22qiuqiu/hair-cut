@@ -1,0 +1,59 @@
+
+{
+  "notes":"订单列表",
+  "resultCode": 0,
+  "resultMsg": "success",
+  "data":{
+    "list":[
+      {
+        "id":1,
+        "code":"29102843",
+        "name":"美发YY",
+        "propName":"化妆品",
+        "isDirectSale":"是",
+        "itemPrice":"零售价 3000",
+        "updatePerson":"最后修改人",
+        "sellStatus":1,
+        "sellName":"已下架",
+        "auditStatus":1,
+        "auditName":"待审批",
+        "applyStatus":1,
+        "applyName":"上架"
+      },
+      {
+        "id":2,
+        "code":"29102843",
+        "name":"美发更多广泛的",
+        "propName":"化妆品",
+        "isDirectSale":"是",
+        "itemPrice":"零售价 3000",
+        "updatePerson":"最后修改人",
+        "sellStatus":1,
+        "sellName":"已下架",
+        "auditStatus":1,
+        "auditName":"待审批",
+        "applyStatus":1,
+        "applyName":"上架"
+      },
+      {
+        "id":5,
+        "code":"29102843",
+        "name":"若热",
+        "propName":"化妆品",
+        "isDirectSale":"是",
+        "itemPrice":"零售价 3000",
+        "updatePerson":"最后修改人",
+        "sellStatus":1,
+        "sellName":"已完成",
+        "auditStatus":1,
+        "auditName":"待审批",
+        "applyStatus":1,
+        "applyName":"上架"
+      }
+    ],
+    "pageNum": 1,
+    "pageSize": 10,
+    "pages": 12,
+    "total": 120
+  }
+}

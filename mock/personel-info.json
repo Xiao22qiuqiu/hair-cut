@@ -1,0 +1,32 @@
+/**
+ * Created by Q on 2018/4/14.
+ */
+
+
+{
+    "notes":"个人中心",
+    "resultCode": 0,
+    "resultMsg": "success",
+    "data":{
+        "list":[ {
+            "id":1,
+            "code":"29102843",
+            "name":"yike",
+            "url":"assets/images/shops/shop4.png",
+            "isDirectSale":"是",
+            "itemPrice":"零售价 3000",
+            "updatePerson":"最后修改人",
+            "sellStatus":1,
+            "sellName":"已下架",
+            "auditStatus":1,
+            "auditName":"待审批",
+            "applyStatus":1,
+            "applyName":"上架"
+        }
+        ],
+        "pageNum": 1,
+        "pageSize": 10,
+        "pages": 12,
+        "total": 120
+    }
+}

@@ -1,0 +1,140 @@
+//变量
+//变量
+@color_orange:#FD5C0E;  //橘红色,主色调，如按钮颜色
+@color-theme_red:#d4237a;  //主题色
+@color_dark_red:#CC3341;  //深红色,主色调，如按钮颜色
+@color_red:#fa3d4f;       //深红色,部分文字颜色，和点缀色，如商品价格等
+@color_dark_grey:#333;    //深灰色，主要文字颜色，如标题
+@color_grey:#777;         //灰色，内容文字颜色，如商品名字
+@color_light_grey:#999;   //浅灰色，辅助文字颜色，如提醒类文字
+@color_line:#ededed;      //类别分割线颜色，和部分高亮颜色
+@color_bg:#f3f3f3;        //背景底色
+@fz_36:36px;              //大标题
+@fz_28:26px;              //主标题和部分内容文字
+@fz_24:24px;              //如商品列表名称内容
+@fz_20:20px;              //提醒文字，如导航栏下的文字
+
+html,div,span,a,p,section,input,button,label,textarea,ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button,textarea {
+  outline:0px none;
+  border:0 none;
+  background: transparent;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+//字体尺寸
+
+.fz_36{//大标题
+  font-size: 36px;
+  line-height: 48px;
+}
+.fz_28{ //主标题和部分内容文字
+  font-size: 28px;
+  line-height: 38px;
+}
+.fz_24{
+  font-size: 24px;  //如商品列表名称内容
+  line-height: 30px;
+}
+.fz_20{
+  font-size: 20px;  //提醒文字，如导航栏下的文字
+  line-height: 30px;
+}
+
+
+//超出一行显示省略号
+.ellipsis{
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  overflow:hidden;
+}
+.ellipsis:hover{
+  white-space: normal;
+}
+
+//2行文本溢出显示省略号
+.ellipsis-two{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+//隐藏
+.hide{
+  display: none!important;
+}
+
+//浮动
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clf::after { //清除浮动
+  display: block;
+  content: '';
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+//修改placeholder默认颜色
+::-moz-placeholder { color: #ccc; }
+::-webkit-input-placeholder { color:#ccc; }
+:-ms-input-placeholder { color:#ccc; }
+
+.customPopup {
+  position: fixed;
+  bottom: -15rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0;
+  .popupMask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .popuContent{
+    position: absolute;
+    bottom: -15rem;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    overflow: auto;
+    max-height: 100%;
+  }
+  &.show{
+    animation:customPopupMove 0.1s;
+    animation-fill-mode:forwards;
+    .popuContent{
+      animation:popuContentMove 0.4s;
+      animation-fill-mode:forwards;
+    }
+  }
+}
+@keyframes customPopupMove
+{
+  from {bottom:-1500px;opacity: 0;}
+  to {bottom:0;opacity: 1;}
+}
+@keyframes popuContentMove
+{
+  from {bottom:-1500px;}
+  to {bottom:0px;}
+}
